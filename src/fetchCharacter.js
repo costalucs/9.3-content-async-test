@@ -1,3 +1,5 @@
+const fetchSimulator = require('../mocks/fetchSimulator');
+
 const fetchCharacter = async (id) => {
   // Recebemos como parâmetro o id
   try {
@@ -25,6 +27,7 @@ const fetchCharacter = async (id) => {
 
 //     return promise;
 // };
+
 
 module.exports = {
   fetchCharacter,
